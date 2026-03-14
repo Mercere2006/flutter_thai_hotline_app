@@ -26,7 +26,7 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
   }
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xFF0D1424),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -43,7 +43,7 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
             Text(
               "THAI HOTLINE APP",
               style: TextStyle(
-                color: Colors.black,
+                color: Colors.white,
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
@@ -54,7 +54,7 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
             Text(
               "สายด่วน",
               style: TextStyle(
-                color: Colors.black,
+                color: Colors.white,
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
               ),
@@ -63,7 +63,7 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
               height: 50,
             ),
             CircularProgressIndicator(
-              color: Colors.black,
+              color: Colors.white,
             ),
           ],
         ),
